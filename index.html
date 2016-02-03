@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Andrew Bales" content="Andrew Claycomb Portfolio">
+
+  <title>Andrew Claycomb</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="ct" id="t1">
+    <div class="ct" id="t2">
+      <div class="ct" id="t3">
+        <div class="ct" id="t4">
+            <ul id="menu"> 
+              <a href="#t1"><li class="icon fa fa-user" id="uno"></li></a>
+              <a href="#t2"><li class="icon fa fa-camera" id="dos"></li></a>
+              <a href="#t3"><li class="icon fa fa-video-camera" id="tres"></li></a>
+              <a href="#t4"><li class="icon fa fa-bolt" id="cuatro"></li></a>
+            </ul>
+
+            <!-- Home -->
+            <div class="page" id="p1">
+               <section class="icon"><span id="comb">Andrew Claycomb</span>
+            </div>
+            <!-- / home -->
+
+            <!-- Photo Gallery -->
+            <div class="page" id="p2">
+              <section class="icon">
+                <div class="photos">   
+                  <img src="images/thumb/thumb-children.jpg" style="cursor:pointer" onclick="showImage(this.src, 'images/children.jpg');" />
+                  <img src="images/thumb/thumb-caroline.jpg" style="cursor:pointer" onclick="showImage(this.src, 'images/caroline.jpg');" />
+                  <img src="images/chris-smoke.jpg" style="cursor:pointer" onclick="showImage(this.src, 'images/chris-smoke.jpg');" />
+                  <img src="images/house.jpg" style="cursor:pointer" onclick="showImage(this.src, 'images/house.jpg');" />
+                  <div id="largeImgPanel" onclick="this.style.display='none'">
+                    <img id="largeImg" style="height:100%; margin:0; padding:0;" />
+                  </div>
+                </div>
+              </section>
+            </div>  
+            <!-- / photo gallery -->
+
+            <!-- Video Portfolio -->
+            <div class="page" id="p3">
+              <section class="icon">
+              <iframe src="https://player.vimeo.com/video/130988287?title=0&byline=0&portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </section>
+            </div>
+            <div class="page" id="p4">
+              <section class="icon fa fa-twitter">
+                <p>@AndrewClaycomb</p>   
+                <div class="comb-info">
+                  <p>I'm Andrew Claycomb, a photographer and producer from Wichita, Kansas.</p> 
+                  <p>I specialize in portraits and real estate photography, but I have a passion for short films. Find me on Twitter.</p> 
+                </div>
+              </section>
+            </div>
+            <!-- / video portfolio -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
